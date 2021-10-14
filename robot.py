@@ -8,4 +8,4 @@ class Robot:
         self.name = name
         self.health = health
         self.weapon = Weapon
-        self.weapon_damage = random.randint(10, 20, 30)
+        self.weapon_damage = random.randint(10, 20)
