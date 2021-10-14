@@ -12,7 +12,8 @@ class Battlefield:
         pass
 
     def display_welcome(self):
-        pass
+        welcome = 'Welcome to Robots VS Dinosaurs!'
+        print(welcome)
 
     def battle(self):
         pass
