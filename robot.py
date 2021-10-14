@@ -1,11 +1,11 @@
 from weapon import Weapon
+import random
+
 
 class Robot:
 
-    def __init__(self, name):
-        self.name = ''
-        self.health = 100
+    def __init__(self, name, health):
+        self.name = name
+        self.health = health
         self.weapon = Weapon
-
-    def attack(self, dinosaur):
-        self.weapon -= 10
+        self.weapon_damage = random.randint(10, 20, 30)

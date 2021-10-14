@@ -1,6 +1,8 @@
 import random
 
+
 robot_weapons = ['Electric Shock', 'Plasma Projectile', 'Circuit Board Crusher']
+
 
 class Weapon:
     
