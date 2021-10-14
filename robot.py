@@ -4,8 +4,8 @@ class Robot:
 
     def __init__(self, name):
         self.name = ''
-        self.health = int
+        self.health = 100
         self.weapon = Weapon
 
     def attack(self, dinosaur):
-        pass
+        self.weapon -= 10
